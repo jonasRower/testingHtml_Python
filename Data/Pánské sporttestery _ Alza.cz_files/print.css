@@ -1,0 +1,32 @@
+@page{margin:1.0cm;}
+h1, h2, h3, h4, h5, h6{page-break-after:avoid;page-break-inside:avoid}
+img{page-break-inside:avoid;page-break-after:avoid;}
+blockquote, table, pre{page-break-inside:avoid}
+ul, ol, dl{page-break-before:avoid}
+#header{display:block !important;background-color:White !important;}
+#left, #leftpanel, #lngpanel, .breadcrumbs, #footerc, #footerContainer, #footercTop,
+.fblikec, #actions, #topbar, #page #pricegrp, #top1, #orderpage .rightCol, #boxc .box .del, #pillarBox,
+.daily-slasher, #scLog, #tabs ul.ui-tabs-nav, #avl, .fceBtns {
+display: none !important;
+}
+h1, h2, h3, h4, h5, h6{line-height:normal !important;}
+#content2{width:100% !important;}
+#h1c, #h1cc{background-image:none !important;}
+body, #body2Inner, #contentBO, #content0{background-image:none !important;background-color:White !important;}
+#detailItem #tabs{display:inline-block !important;width:100% !important;background:white !important;}
+#tabs{position:static !important;clear:both !important;}
+#tabs #popis{display:inline-block !important;page-break-inside:auto;width:100% !important;}
+#popis > div{float:none !important;}
+#detailItem .ui-tabs-panel{padding-left:0 !important;padding-right:0 !important;position:static !important;background:white !important;}
+#tabsc .ui-tabs-nav, #detailItem .ui-tabs-nav{display:inline-block !important;}
+.page3 #content{width:100% !important;float:none !important;}
+#boxc .box{width:20% !important;background:none !important;border-right:none !important;vertical-align:top !important;padding:15px 20px 0 20px !important;page-break-inside:avoid;}
+#boxc .emptyBox{background-color:White !important;}
+#boxc .box.first{clear:none !important;}
+#boxc .btnkx{display:none !important;}
+.sinfo1{background:none !important;}
+.commodityLine, .commodityLine .lineContainer{width:100% !important;height:auto !important;overflow:visible !important;background:none !important;}
+.commodityLine .boxes{width:100% !important;}
+.commodityLine .leftSlider, .commodityLine .rightSlider, .commodityLine .pager{display:none !important;}
+#newsTabs{page-break-inside:avoid;}
+.newsTabs2{clear:both;border-top:none !important;}
